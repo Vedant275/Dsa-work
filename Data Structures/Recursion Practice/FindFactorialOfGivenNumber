@@ -1,0 +1,27 @@
+import java.util.*;
+/**
+*  Q. Print the factorial of a number
+*   Recursively calculate the factorial of a certain number
+*/
+
+public class Main {
+    public static int  findFactorial(int i) {
+        /* Base condition to stop recursion if the numbers becomes
+        less than or equal to 1      */
+        if(i == 1 || i == 0){
+            return 1;
+        }
+        // negative numbers don't have a valid factorial
+        if(i < 0){
+            return -1;
+        }
+        // Recursively multiplies the previous number to the predecessor
+        return i * findFactorial(i - 1);
+    }
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+       System.out.println("Enter the number for finding the factorial");
+       int n = sc.nextInt();
+       System.out.println( findFactorial(n));
+    }
+}
