@@ -1,8 +1,9 @@
 import java.util.*;
+
 /**
 *  Q. Print the factorial of a number
 *   Recursively calculate the factorial of a certain number
- */
+*/
 
 public class Main {
     public static int  findFactorial(int i) {
