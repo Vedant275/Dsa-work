@@ -1,8 +1,7 @@
 import java.util.*;
 
 /**
- * Q.What if we don't print but need the values / indices in return from the function.
- * Recursion of sum of first n natural numbers
+ * Q.Recursion of sum of first n natural numbers
  */
 
 public class Main {
