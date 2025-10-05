@@ -11,8 +11,8 @@ public class Main {
         if(i < 0){
             return 0;
         }
-        return i + sumUpTo(i - 1);    /* this part keeps on adding the previous number to the
-         value till it gets 0 */
+        return i + sumUpTo(i - 1);    
+       
     }
     public static void main(String[] args) {
         System.out.println("Enter the number till which you want the sum");
