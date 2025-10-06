@@ -2,6 +2,7 @@
  * Q. Given some balls of three colors arranged in a line, rearrange them
  * such that all the red balls go first, then green and then blue ones.
  */
+
 public class Main {
     static int index = 0;
     static char balls[] = {'G','B','G','G','R','B','R','G'};
