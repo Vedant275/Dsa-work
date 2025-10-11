@@ -75,7 +75,7 @@ l3 = dummy (used to build the merged list)
 --------------------------------------------
 Iteration 1:
 - l1.data = 1, l2.data = 2
-- Compare: 1 < 2  ✅
+- Compare: 1 < 2  
   → l3.next = l1
   → Move l1 = l1.next (now l1 points to 3)
   → Move l3 = l3.next (now l3 points to 1)
@@ -86,7 +86,7 @@ Merged list: 1 -> null
 --------------------------------------------
 Iteration 2:
 - l1.data = 3, l2.data = 2
-- Compare: 3 < 2 ❌
+- Compare: 3 < 2 
   → l3.next = l2
   → Move l2 = l2.next (now l2 points to 4)
   → Move l3 = l3.next (now l3 points to 2)
@@ -97,7 +97,7 @@ Merged list: 1 -> 2 -> null
 --------------------------------------------
 Iteration 3:
 - l1.data = 3, l2.data = 4
-- Compare: 3 < 4 ✅
+- Compare: 3 < 4 
   → l3.next = l1
   → Move l1 = l1.next (now l1 points to 5)
   → Move l3 = l3.next (now l3 points to 3)
@@ -108,7 +108,7 @@ Merged list: 1 -> 2 -> 3 -> null
 --------------------------------------------
 Iteration 4:
 - l1.data = 5, l2.data = 4
-- Compare: 5 < 4 ❌
+- Compare: 5 < 4 
   → l3.next = l2
   → Move l2 = l2.next (now l2 points to 6)
   → Move l3 = l3.next (now l3 points to 4)
@@ -119,7 +119,7 @@ Merged list: 1 -> 2 -> 3 -> 4 -> null
 --------------------------------------------
 Iteration 5:
 - l1.data = 5, l2.data = 6
-- Compare: 5 < 6 ✅
+- Compare: 5 < 6 
   → l3.next = l1
   → Move l1 = l1.next (now l1 = null)
   → Move l3 = l3.next (now l3 points to 5)
@@ -129,7 +129,7 @@ Merged list: 1 -> 2 -> 3 -> 4 -> 5 -> null
 
 --------------------------------------------
 End Condition:
-- l1 == null ❌
+- l1 == null 
 - So connect remaining l2:
   → l3.next = l2
 Final merged list:
