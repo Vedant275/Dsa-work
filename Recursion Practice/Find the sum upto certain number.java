@@ -26,3 +26,14 @@ public class Main {
         //solving using ternary operator
         return (i <= 0) ? 0 : i + sumUpTo(i - 1);    
     }
+/*
+Dry Run of sumUpto(n) using ternary operator (n <= 0):
+
+Call | n  | Expression
+-----------------------------
+  1  |  4 | 4 + sumUpto(3)
+  2  |  3 | 3 + sumUpto(2)
+  3  |  2 | 2 + sumUpto(1)
+  4  |  1 | 1 + sumUpto(0)
+  5  |  0 | 0
+*/
