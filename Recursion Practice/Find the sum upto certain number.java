@@ -12,8 +12,8 @@ public class Main {
             return 0;
         }
         return i + sumUpTo(i - 1);    
-       
     }
+    
     public static void main(String[] args) {
         System.out.println("Enter the number till which you want the sum");
         Scanner sc = new Scanner(System.in);
@@ -21,3 +21,8 @@ public class Main {
         System.out.println( sumUpTo(i));
     }
 }
+/* 2 method
+    public static int sumUpTo(int i) {
+        //solving using ternary operator
+        return (i <= 0) ? 0 : i + sumUpTo(i - 1);    
+    }
