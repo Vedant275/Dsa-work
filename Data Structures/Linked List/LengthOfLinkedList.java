@@ -2,7 +2,7 @@
  * Finding length of the linked list
  */
 
-public class LengthOfLinkedList {
+public class lengthOfLinkedList {
     public static class Node {
         int data;
         Node next;
@@ -38,7 +38,7 @@ public class LengthOfLinkedList {
         current.next = newNode;
     }
     public static void main(String[] args) {
-        LengthOfLinkedList list = new LengthOfLinkedList();
+        lengthOfLinkedList list = new lengthOfLinkedList();
         list.push(10);
         list.push(20);
         list.push(30);
