@@ -103,14 +103,14 @@
 - [ ] Array-based stack implementation
 
 #### Advanced Topics
-- [ ] Evaluate arithmetic expressions
-- [ ] Power function optimization
+- [x] Evaluate arithmetic expressions
+- [x] Power function optimization
 - [ ] Advanced data structures (6.851)
 
 ### Upcoming Tasks 📅
 
 #### Linked List
-- [ ] Find list length
+- [x] Find list length
 
 #### Algorithms
 - [ ] Radix Sort implementation
