@@ -1,0 +1,14 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Compiled files
+*.class
+*.jar
+out/
+build/
+target/
+
+# Mentor tracking files (these are maintained in the mentor branch)
+.mentor/
