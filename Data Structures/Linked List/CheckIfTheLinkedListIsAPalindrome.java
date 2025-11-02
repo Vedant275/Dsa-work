@@ -75,3 +75,30 @@ public class Main {
         System.out.println(myList.checkPalindrome());
     }
 }
+/*
+-----------------------------------------
+ Dry Run: Check if Linked List is Palindrome
+-----------------------------------------
+
+Input Linked List:
+10 → 20 → 30 → 20 → 10
+
+Step | Operation                     | fast | slow | current | prev | Description
+-----|--------------------------------|------|------|----------|------|-------------------------------
+1    | Initialization                 | 10   | 10   |  -       |  -   | Start of traversal
+2    | Move fast & slow               | 30   | 20   |  -       |  -   | slow = 20, fast = 30
+3    | Move fast & slow               | 10   | 30   |  -       |  -   | Midpoint found (slow = 30)
+4    | Start reversing from mid       |  -   |  -   | 30       | null | Prepare to reverse second half
+5    | Reverse link                   |  -   |  -   | 20       | 30   | 30 → null, prev = 30
+6    | Reverse link                   |  -   |  -   | 10       | 20   | 20 → 30, prev = 20
+7    | Reverse complete               |  -   |  -   | null     | 10   | 10 → 20 → 30 (reversed half)
+8    | Compare halves (10 == 10)      |  -   |  -   |  -       |  -   | Match 
+9    | Compare halves (20 == 20)      |  -   |  -   |  -       |  -   | Match 
+10   | Compare halves (30 == 30)      |  -   |  -   |  -       |  -   | Match 
+11   | Comparison complete            |  -   |  -   |  -       |  -   | Both halves traversed
+12   | Result                         |  -   |  -   |  -       |  -   | Linked list is a palindrome 
+
+Output:
+true
+-----------------------------------------
+*/
