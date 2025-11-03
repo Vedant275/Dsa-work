@@ -97,30 +97,15 @@
 - [ ] HashMap operation complexities
 - [ ] Hash table concepts
 
-#### Stack & Queue Problems
-- [ ] Implement 4 stack problems
-- [ ] Implement 4 queue problems
-- [ ] Array-based stack implementation
-
 #### Advanced Topics
-- [x] Evaluate arithmetic expressions
-- [x] Power function optimization
 - [ ] Advanced data structures (6.851)
 
-### Upcoming Tasks 📅
-
-#### Linked List
-- [x] Find list length
-
 #### Algorithms
-- [ ] Radix Sort implementation
 - [ ] Heap Sort implementation
-- [ ] Algorithm complexity analysis
 
 #### General
 - [ ] Document code with test cases
-- [ ] Clean and organize GitHub repository
-
+      
 ## Notes & Clarifications 📝
 
 1. Stack Implementation:
