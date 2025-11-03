@@ -59,6 +59,7 @@ Data Structures
   - QueueUsingLinkedList.java
 - Stacks
   - StacksWithLinkedList.java
+  - stacksUsingArray.java
 
 Recursion Practice
 - ExponentialPowerNumbers.java
