@@ -11,6 +11,7 @@
 
 2. **Stacks**
    - [x] Stack with Linked List implementation
+   - [x] Stack with Array implementation
 
 3. **Searching**
    - [x] Binary Search implementation
@@ -73,9 +74,8 @@
 - [x] Detect cycle (Floyd's algorithm)
 - [x] Find middle node
 - [x] Merge sorted lists
-- [x] Check palindrome
-
-#### Recursion
+   - [x] Check palindrome
+   - [x] Length of Linked List#### Recursion
 - [x] Factorial calculation
 - [x] Sum of first n numbers
 - [x] Print numbers 1 to n
@@ -141,4 +141,4 @@
 - Update documentation
 - Track progress on GitHub
 
-Last Updated: October 22, 2025
+Last Updated: November 3, 2025

@@ -1,7 +1,5 @@
 # Dsa-work
 
-A collection of Data Structures and Algorithms (DSA) implementations in Java, organized by topic for easy reference and practice.
-
 A collection of Data Structures and Algorithms (DSA) implementations in Java, organized by topic for study and practice.
 
 ## Prerequisites
@@ -37,13 +35,15 @@ Data Structures
   - HashMapImplementation.java
   - HashSetImplemetation.java
 - Linked List
-  - Check if the linked list is a palindrome
+  - CheckIfTheLinkedListIsAPalindrome.java
   - DeleteNode.java
   - FindingMiddleoOfTheLinkedList.java
   - Floyd’s Tortoise & Hare.java
+  - LengthOfLinkedList.java
   - ReverseLinkedList.java
   - SearchingANode.java
 - Questions
+  - ArithmeticOperationsUsingStack.java
   - CheckIfArrayIsSorted.java
   - CountDigitOfANumber.java
   - DutchNationalFlag.java
@@ -80,7 +80,7 @@ From the project root (example uses zsh):
 Compile a single file:
 ```bash
 cd "/Users/vedant/Dsa-work/Data Structures/Questions"
-cd "path/to/Dsa-work/Data Structures/Questions"
+
 java ArithmeticOperationsUsingStack
 ```
 
