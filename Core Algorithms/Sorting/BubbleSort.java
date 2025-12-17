@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class BubbleSort {
 
     static int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
