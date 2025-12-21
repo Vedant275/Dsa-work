@@ -10,7 +10,7 @@ import java.util.*;
  * 6. If pointers meet or cross, return true.
  */
 
-public class Main {
+public class ReverseAString {
 
     public static boolean palindrome(int i, int j, String sample) {
         sample = sample.toLowerCase(); // make string lowercase
